@@ -1,0 +1,22 @@
+I
+1 
+a> host name = Ben-PC
+b> 00-02-72-BF-C2-63
+c>10.8.102.2
+
+2
+a> <1ms
+b> 20ms
+
+3
+b> 31.13.74.64
+c> po126.msw01.05.ord1.tfbnw.net 173.252.64.107
+d> 16
+e> the final one
+
+II
+Protocol layers makes for more simplifed designs in networking and by layering the protocols themselves become more simple and modular.
+
+III
+a> it doesnt affect them
+b> k +1 was to be reimplemented

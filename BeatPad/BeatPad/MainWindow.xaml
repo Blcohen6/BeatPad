@@ -1,0 +1,40 @@
+﻿<Window x:Class="BeatPad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="492.09" Width="595.671" KeyDown="click_handle">
+    <Grid Name="beatGrid">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu DockPanel.Dock="Top" Margin="0,0,0,23">
+            <MenuItem Header="_File" >
+            <MenuItem Header="Exit" Click="Exit_Click"/>
+            </MenuItem>
+        </Menu>
+        <!--Row 1-->
+        <Button Name="Button1" Content="Q" HorizontalAlignment="Left" Height="100" Margin="20,35,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button1_Click"/>
+        <Button Name="Button2" Content="W" HorizontalAlignment="Left" Height="100" Margin="135,35,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button2_Click"/>
+        <Button Name="Button3" Content="E" HorizontalAlignment="Left" Height="100" Margin="250,35,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button3_Click"/>
+        <Button Name="Button4" Content="R" HorizontalAlignment="Left" Height="100" Margin="365,35,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button4_Click"/>
+        <!--Row 2-->
+        <Button Name="Button5" Content="A" HorizontalAlignment="Left" Height="100" Margin="20,136,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button5_Click"/>
+        <Button Name="Button6" Content="S" HorizontalAlignment="Left" Height="100" Margin="135,136,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button6_Click"/>
+        <Button Name="Button7" Content="D" HorizontalAlignment="Left" Height="100" Margin="250,136,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button7_Click"/>
+        <Button Name="Button8" Content="F" HorizontalAlignment="Left" Height="100" Margin="365,136,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button8_Click"/>
+        <!--Row 3-->
+        <Button Name="Button9" Content="Y" HorizontalAlignment="Left" Height="100" Margin="20,237,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button9_Click"/>
+        <Button Name="Button10" Content="U" HorizontalAlignment="Left" Height="100" Margin="135,237,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button10_Click"/>
+        <Button Name="Button11" Content="I" HorizontalAlignment="Left" Height="100" Margin="250,237,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button11_Click"/>
+        <Button Name="Button12" Content="O" HorizontalAlignment="Left" Height="100" Margin="365,237,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button12_Click"/>
+        <!--Row 4-->
+        <Button Name="Button13" Content="H" HorizontalAlignment="Left" Height="100" Margin="20,338,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button13_Click"/>
+        <Button Name="Button14" Content="J" HorizontalAlignment="Left" Height="100" Margin="135,338,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button14_Click"/>
+        <Button Name="Button15" Content="K" HorizontalAlignment="Left" Height="100" Margin="250,338,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button15_Click"/>
+        <Button Name="Button16" Content="L" HorizontalAlignment="Left" Height="100" Margin="365,338,0,0" VerticalAlignment="Top" Width="113" BorderThickness="1" Click="Button16_Click"/>
+        <!--Others-->
+        <Button Name="stopLoopButton" Content="Stop Loop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Margin="490,285,0,0" Click="stopLoop" IsEnabled="False" />
+        <Button Name="clearLoopButton" Content="Clear Loop" HorizontalAlignment="Left" Height="22" Margin="490,320,0,0" VerticalAlignment="Top" Width="85" Click="clearLoop" IsEnabled="False"/>
+        <Button Name="playLoopButton" Content="Play Loop" HorizontalAlignment="Left" Height="22" Margin="490,250,0,0" VerticalAlignment="Top" Width="85" Click="playButton" IsEnabled="False"/>
+    </Grid>
+</Window>
